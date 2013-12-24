@@ -10,7 +10,7 @@ http://blog.vjeux.com/2012/image/image-layout-algorithm-500px.html
 
 ```  
   $(function () {
-    $j("#layout").layout({
+    $("#layout").layout({
         patterns: ['o|--o|oo','|--o|o--','--o|ooo|','oo|o--|o'],
         specialPatterns: ['----','----','--oo','oooo','|--o|o--','o|--o|oo'],
         blockFillEl: $j('<i class="fill"></i>')
