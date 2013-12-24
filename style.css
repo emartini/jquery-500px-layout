@@ -1,0 +1,9 @@
+.layout {
+	margin-left: -12px; /* hack, should be equal to opts.margin, by default 12 */
+}
+
+.layout i {
+	position: absolute;
+	background-size: cover;
+	background-position: 50% 25%;	
+}
