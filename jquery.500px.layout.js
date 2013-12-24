@@ -32,7 +32,6 @@
     Layout.DEFAULTS = {
         margin: 12,  //pixels
         blockEl: 'i',
-        randomOrganization: false,
         patterns: ['##--##oo'],
         specialPatterns: []        
     }
