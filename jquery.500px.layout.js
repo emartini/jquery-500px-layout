@@ -95,7 +95,7 @@
 
         var h = 0,
             i = 0,
-            maxHeight = 0;
+            lastEl;
 
         while (this.blocks.length) {
 
@@ -123,16 +123,8 @@
         }
 
         /* fix the height */
-        this.$el.find(this.opts.blockEl).each(function () {
-            var $this = $(this),
-                height = $this.offset().top + $this.outerHeight(false);
-
-            if (height > maxHeight) {
-                maxHeight = height;
-            }
-        });
-                
-        this.$el.height(maxHeight - $('header').outerHeight(true));
+        lastEl = $('i:last');
+        this.$el.height(parseInt(lastEl.css('height')) + parseInt(lastEl.css('margin-top')));
     }
 
     // MODAL PLUGIN DEFINITION
