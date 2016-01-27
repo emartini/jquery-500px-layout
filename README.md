@@ -11,7 +11,7 @@ http://www.estudiovicencio.cl/
 
 ##Usage
 
-```  
+```javascript
   $(function () {
     $("#layout").layout({
         patterns: ['o|--o|oo','|--o|o--','--o|ooo|','oo|o--|o'],
