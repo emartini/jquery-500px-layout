@@ -22,7 +22,7 @@ http://www.estudiovicencio.cl/
 ```
 ### Options
 
-`patterns`: an array of string with the patterns to be repeatedly used. All available combinations are here http://jsfiddle.net/vjeux/L2NQ6 (credits to blog.vjeux.com). By default ['##--##oo']
+`patterns`: an array of string with the patterns to be repeatedly used. All available combinations are here http://jsfiddle.net/vjeux/L2NQ6 (credits to blog.vjeux.com). By default `["##--##oo"]`
 
 `specialPatterns`: are used on the ending conditions, each element from the array is used when remains 1,2,3,4 or 6 elements. By default `[]`
 
